@@ -80,8 +80,6 @@ const capabilities = [
   'browser_version': 'latest',
   'os': 'Windows',
   'os_version': '10',
-  'name': 'Edge latest on Win10',
-  'build': 'puppeteer-build-2'
 }]
 
 //  The following code loops through the capabilities array defined above and runs your code against each environment that you have specified
