@@ -37,7 +37,8 @@ const capabilities = [
   'os': 'osx',
   'os_version': 'catalina',
   'name': 'Chrome latest on Catalina',
-  'build': 'puppeteer-build-2'
+  'build': 'puppeteer-build-2',
+  'project': 'First Puppeteer Project'
 },
 {
   'browser': 'firefox',
@@ -45,7 +46,8 @@ const capabilities = [
   'os': 'osx',
   'os_version': 'catalina',
   'name': 'Firefox latest on Catalina',
-  'build': 'puppeteer-build-2'
+  'build': 'puppeteer-build-2',
+  'project': 'First Puppeteer Project'
 },
 {
   'browser': 'edge',
@@ -53,7 +55,8 @@ const capabilities = [
   'os': 'osx',
   'os_version': 'catalina',
   'name': 'Edge latest on Catalina',
-  'build': 'puppeteer-build-2'
+  'build': 'puppeteer-build-2',
+  'project': 'First Puppeteer Project'
 },
 {
   'browser': 'chrome',
@@ -61,7 +64,8 @@ const capabilities = [
   'os': 'Windows',
   'os_version': '10',
   'name': 'Chrome latest-1 on Win10',
-  'build': 'puppeteer-build-2'
+  'build': 'puppeteer-build-2',
+  'project': 'First Puppeteer Project'
 },
 {
   'browser': 'firefox',
