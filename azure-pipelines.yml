@@ -23,7 +23,7 @@ steps:
   displayName: 'npm install and build'
 
 - script: |
-    npm google_search.js
+    npm run parallel
   displayName: 'run on browserstack'
 - task: BrowserStackStopLocal@0
 - task: BrowserStackResults@1
