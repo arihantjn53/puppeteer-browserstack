@@ -45,7 +45,7 @@ async function testFn() {
         'browser_version': 'latest',
         'os': 'os x',
         'os_version': 'catalina',
-        'build': 'puppeteer-build-1',
+        'build': process.env.BROWSERSTACK_BUILD_NAME || 'puppeteer-build-1',
         'name': 'My first Puppeteer test',
         'browserstack.username': process.env.BROWSERSTACK_USERNAME || 'YOUR_USERNAME',
         'browserstack.accessKey': process.env.BROWSERSTACK_ACCESS_KEY || 'YOUR_ACCESS_KEY',
